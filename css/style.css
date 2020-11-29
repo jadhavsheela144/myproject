@@ -1,0 +1,333 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+.header{
+width:80%;
+height:80vh;
+background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/bbb.jpg');
+background-repeat:no-repeat;
+background-position:center;
+background-size:100% 100%;
+padding:10vh 10% 10vh 10%;
+}
+
+.menu{
+	width:100%;
+	height:10vh;	
+	margin-top:10vh;
+}
+
+.logo
+{
+	width:10%;
+height:100%;	
+float:left;
+}
+
+.logo img
+{
+width:100%;
+height:100%;	
+}
+
+.nav{
+	width:90%;
+height:100%;
+float:left;	
+}
+
+.nav li{
+	list-style:none;
+	display:inline-block;
+}
+
+.nav li a{
+	padding:15px 30px;
+	text-decoration:none;
+	color:gray;
+	line-height:10vh;
+}
+
+.nav li a:hover{
+	color:white;
+}
+
+
+.login{
+	width:100%;
+	height:40vh;
+	margin-top:15vh;
+}
+
+.login .admin,.login .accountant{
+	width:40%;
+	padding:0px 1%;
+	float:left;
+}
+
+.login h1,.about h1,.contact h1{
+	font-family:calibri;
+	color:white;
+	font-size:28px;
+}
+
+.about h1{color:black;}
+
+.login input{
+	width:80%;
+	height:30px;
+	border-radius:5px;
+	margin-top:20px;
+	
+}
+
+
+.login .btn{
+	width:30%;
+	margin-left:35%;
+	height:30px;
+	border-radius:5px;
+	margin-top:10px;
+	background:gray;
+	color:white;
+	border:none;
+}
+
+.login .btn:hover{
+	background:black;
+}
+
+.about{
+	width:80%;
+height:80vh;
+padding:10vh 10%;	
+}
+
+.about .about-content{
+	margin-top:10%;	
+}
+
+.about .about-content p{
+	margin-top:2%;
+	font-size:20px;
+	font-family:calibri;
+	text-align:justify;
+}
+
+.contact{
+	width:80%;
+	height:80vh;
+	padding:10vh 10%;
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/fff.jpg');
+background-repeat:no-repeat;
+background-position:center;
+background-size:100% 100%;
+}
+
+.contact address{
+	width:30%;
+float:left;
+color:white;
+text-align:left;	
+font-size:20px;
+font-family:calibri;
+padding-left:20%;
+margin-top:20%;
+}
+
+.contact p{
+	color:white;
+font-size:20px;
+text-align:center;
+font-family:calibri;
+margin-top:53.5%;
+padding:2% 0px;
+}
+
+
+
+
+
+
+
+.adminnav{
+	width:100%;
+	height:40px;
+	background:black;
+}
+
+.adminnav ul{
+	width:100%;
+	height:40px;
+}
+
+.adminnav ul li{
+	display:inline-block;
+	list-style:none;
+}
+
+
+.adminnav ul li a{
+	color:gray;
+	padding:10px 30px;
+	text-decoration:none;
+	line-height:40px;
+}
+
+.adminnav ul li a:hover{
+	color:white;
+	background:red;
+}
+
+
+.admin-info,.addaccountant,.changepass{
+	height:74vh;
+	width:80%;
+	padding:10vh 10%;
+}
+
+.admin-info .left,.admin-info .right{
+	width:40%;
+	float:left;
+	height:80%;
+}
+
+.admin-info .left{
+	margin-right:10%;
+}
+
+.admin-info .right{
+	text-align:justify;
+	font-family:calibri;
+	font-size:18px;
+}
+
+
+.admin-info .left img{
+	width:100%;
+	height:100%;	
+}
+
+.footer{
+	width:100%;
+	background:black;
+	color:white;
+	text-align:center;
+}
+
+.accountant{
+	width:80%;
+	margin-top:3%;
+	margin-left:10%;
+}
+
+.form-group{
+	width:100%;
+	
+}
+
+.form-group input{
+	width:40%;
+	height:30px;
+	margin-top:40px;
+	margin-right:5%;
+	
+}
+
+.form-group .gen{
+	width:5%;	
+	height:10px;
+	margin-right:0%;
+}
+
+
+.form-group .btn,.changepass .btn{
+	width:20%;	
+	height:30px;
+	background:white;
+	color:black;
+	border:thin solid gray;
+	cursor:pointer;
+}
+
+.form-group .btn:hover,.changepass .btn:hover{
+	background:lightgray;
+}
+	
+.form-group .btn1{
+	margin-left:10%;
+	margin-right:25%;
+	
+}
+
+
+.viewaccountants{
+	height:74vh;
+	width:80%;
+	padding:10vh 10%;
+}
+
+.viewaccountants .acc-records
+{
+	width:100%;
+background:skyblue;
+height:80%;	
+overflow:auto;
+}
+
+.viewaccountants .acc-records table{
+	width:100%;
+}
+
+.viewaccountants .acc-records table tr th{
+	background:black;
+	color:white;
+}
+
+.viewaccountants .acc-records table tr th,.viewaccountants .acc-records table tr td{
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	text-align:center;
+}
+
+.viewaccountants .acc-records table tr{
+	height:30px;
+	
+}
+
+.viewaccountants .acc-records table tr:hover{
+	background:transparent;
+	
+}
+
+
+.acc-records .btn{
+	width:50px;
+height:25px;	
+	background:white;
+	color:black;
+	border:thin solid gray;
+	cursor:pointer;
+}
+
+.acc-records .btn:hover{
+	background:black;
+	color:white;
+}
+
+
+.changepass{
+	text-align:center;
+}
+
+.changepass input{
+	width:50%;
+	height:40px;
+	margin-top:20px;
+}
+
+
+	
